@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e1e56e1-3b2e-4c40-96e4-3f321eb6c1f3" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/notes/context.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/create-react-app.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/hooks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/jsx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/refs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/set-state-2-ways.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/use-effect.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/virtual-dom.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes/css-in-js.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/view-model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes/view-model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="2e1e56e1-3b2e-4c40-96e4-3f321eb6c1f3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Cleaned up notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up notes" />
   </component>
 </project>
