@@ -1,0 +1,17 @@
+CSS in JSS: defining styles in js code
+    as opposed to in external css files
+
+Technique 1: in-line styles:
+    <div style={ styleObject }>
+    where styleObject is an object of
+    type React.CSSProperties (basically css but with camel-case names)
+    this is what we have used all thru class
+    one possible draw back: performance
+
+Technique 2: 3rd party css-in-js libraries
+    the two i use are:
+        jss (used by material-ui)
+        jsxstyle
+    Works similar to inline styles
+        but generates <style>  </style> elements
+        and adds them to your html page

@@ -1,0 +1,24 @@
+refs are used to store any mutable data that does not trigger a react re-render.
+
+ref vs state:
+    Both are mutable
+    Changing a "state" value triggers a re-render.
+    Changing a "ref" value DOES NOT trigger a re-render.
+
+useRef:
+    If you have some mutable state that is not stored as react "state"
+    u can store it in a ref object using the useState hook.
+
+    const ref = useRef<HTMLInputElement | null>(null);
+    the type of ref (in this case) is:
+        MutableRefObject<HTMLInputElement | null>
+
+    it can be updated like this:
+        ref.current = someHtmlElement
+
+refs for html dom elements:
+    refs were originally used just for references (and mutating)
+        the native (and mutable) dom elements
+        which are normally (for the most part) hidden from react developers.
+
+    But refs can be used to store any mutable data that does not trigger a re-render.

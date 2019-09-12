@@ -1,0 +1,9 @@
+Use can memo 3 things:
+    react component: React.memo(reactComponent)
+    an object: useMemo()
+    a callback: useCallback()
+        callbacks are so often passed down the tree as a prop
+        it avoid unneeded re-renders
+
+
+See blackjack app for examples

@@ -1,25 +1,25 @@
 view = f(model)
 
-model = props
-        state
-        context
+where model is:
+    props
+    state
+    context
+
+Basically, your app's data is stored as "state",
+    then, parts of that data are passed
+    down (immutably) to the child components
+    in the form of props or context
+
+props:
+    must be explicitly passed from parent to child
+    as a "props"
 
 context:
-    analogous to java's thread local (one step less than global)
-    scope is the call stack (not quite global)
-    saves one from having to pass the same object down the component tree
+    once an object is placed in the "context"
+    it is *implicitly* passed to all child components
 
-    f0
-        f1 = state:{g:Game)
-            f2a(props:g)
+props and context are immutable
+state is mutable
 
-            f2b(props:g)
-                f3b(props:g)
-                    f4b(props:g)
-                        f5b(props:g)
-
-            f2c(context:g)
-                f3c
-                    f4c
-                        f5c
-                            can access context
+data that is state (higher in the tree)
+    is props or context lower in the tree

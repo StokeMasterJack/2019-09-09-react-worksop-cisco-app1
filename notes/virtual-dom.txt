@@ -1,0 +1,26 @@
+React components return a tree of virtual dom elements (not real dom elements)
+    which is essentially a javascript object
+
+That virtual-dom is then compared with the actual browser dom and diffed
+    only the parts of the actual dom that need updating will be updated.
+
+While only small parts of the actual browser dom end up being changed
+    (due to dom-diffing) the entire virtual dom
+    is (potentially) regenerated whenever that components state changes.
+
+    This is not as scary as it may seem for a few reasons:
+        1. the virtual dom is actually smaller (than u might think)
+           due to conditional rendering
+        2. If you place your state strategically at the correct level
+           of your component tree (i.e. high enough, but no higher)
+           only that portion of the virtual dom will be regenerated
+        3. By using React.memo and the functional programming techniques
+           espoused in class you can majorly reduce the amount
+           of virtual dom that needs to be regenerated.
+
+    By "functional programming techniques" i mean:
+        a. ensuring that your state object is immutable
+        b. your reducer function only replaces the parts
+           of the state tree that change and keeping
+           as much of the previous state tree as possible
+           i.e. if dealerHand does not change use the exact same pointer

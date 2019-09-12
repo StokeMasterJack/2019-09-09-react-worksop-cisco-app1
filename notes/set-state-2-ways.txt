@@ -1,0 +1,13 @@
+
+
+
+const [g, setG] = useState(Game.mk({shuffle: true}));
+
+type SetG = (newState:Game)=>void;
+
+type SetG = (updater: (prevState:Game) => Game) => void;
+
+const onHit = () =>{
+    const g2 = g.hit();
+    setG(g2);
+}

@@ -1,0 +1,21 @@
+effect (side-effect):
+    in functional programming, a *pure function* is a function that:
+        a. returns a value based *solely* on the functions arguments.
+        b. does not change (or do) anything outside of the function beyond
+           simply returning a value.
+           i.e. does not mutate any global or static or instance vars.
+                does not write to a db, make an ajax call, etc.
+
+    a function *does* change something outside of the function is said to
+       have "side-effects".
+
+    in react, many functions make state changes. So when we say side-effect
+       in react, we mean a side-effect other than a state change.
+
+useEffect:
+    In React, the standard way to invoke "side-effect functions"
+    is with the useEffect hook. Mainly to call ajax services.
+
+
+
+

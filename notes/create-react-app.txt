@@ -1,0 +1,17 @@
+npx create-react-app
+    creates a starter react app
+    comes with all sorts of
+        build, dev and test tools (babel, webpack, etc)
+        magically built-in
+
+npm start:
+    starts of a virtual server
+    no js files actually generated (all done in memory)
+
+npm run-script build:
+    creates built version of app for production deployment
+    uses cache-forever js file names (i.e. hash based)
+
+npm run-script test
+    runs all of your unit test
+    re-runs them on changing files tests or code being tested

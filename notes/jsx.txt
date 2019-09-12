@@ -1,0 +1,12 @@
+case of tag name (first letter):
+    lower: native dom html element
+        <div>
+        <input>
+    upper: react component
+        <App/>
+        <Red/>
+
+returning null or false from a UI component
+    renders nothing
+
+virtual dom is actually small (smaller than u might think) due to conditional rendering
